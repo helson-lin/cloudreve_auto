@@ -1,0 +1,38 @@
+{
+  "name": "cloudreve",
+  "version": "1.0.0",
+  "description": "目标：使用装饰器简化常用的Express 方法",
+  "main": "index.js",
+  "scripts": {
+    "run": "tsc && node dist/app.js",
+    "build": "tsc",
+    "build:w": "tsc -w",
+    "dev": "supervisor dist/index.js",
+    "serve": "nodemon dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "nodemon": "^2.0.16",
+    "supervisor": "^0.12.0",
+    "ts-node": "^10.8.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@types/request": "^2.48.8",
+    "colors": "^1.4.0",
+    "moment": "^2.29.3",
+    "request": "^2.88.2"
+  }
+}
